@@ -75,7 +75,6 @@ export default {
   data: function () {
     return {
 
-      testVariable: 30,
       maxHealth: 100,
 
       gameMechanics: {
@@ -84,19 +83,19 @@ export default {
       },
 
       player: {
+          name: 'Psyduck',
           healthBarColor: 'bg-success',
           actualHealth: 0,
           dmgTaken: false,
-          name: 'Psyduck',
           dmgRecieved: [],
           dmgCaused: [],
       },
 
       enemy: {
+          name: 'Sir Artorias',
           healthBarColor: 'bg-succes',
           actualHealth: 0,
           dmgTaken: false,
-          name: 'Sir Artorias',
           dmgRecieved: [],
           dmgCaused: [],
       },
