@@ -122,8 +122,8 @@ export default {
     startNewGame: function(){
       this.gameMechanics.someOneWon = false;
       this.gameMechanics.gameStarted = !this.gameMechanics.gameStarted;
-      this.player.actualHealth = 100;
-      this.enemy.actualHealth = 100;
+      this.player.actualHealth = this.maxHealth;
+      this.enemy.actualHealth = this.maxHealth;
     },
     normalAttackByPlayer: function(){
       let vm = this;
