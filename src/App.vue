@@ -252,12 +252,3 @@ export default {
 }
 
 </style>
-
-<!--
-
- - sebződéskor rezeg a játékos avatarja
- - az élet 100% és 70% között zöld, 70 és 30 között sárga, 30 alatt piros színű
- - minden sebzést v-forral generáljon le
-
-
--->
